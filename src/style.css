@@ -1,0 +1,50 @@
+*{
+    color: blue;
+}
+.recipe-book {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .recipe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe h2 {
+    margin-top: 0;
+  }
+  
+  .recipe button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .recipe button:hover {
+    background-color: #45a049;
+  }
+  
+  .recipe button:focus {
+    outline: none;
+  }
+  
+  .recipe button:active {
+    background-color: #3e8e41;
+  }
+  
+  .recipe-list {
+    display: grid;
+    gap: 10px;
+  }
